@@ -1,5 +1,7 @@
 import axios from 'axios'
-const baseUrl = 'http://localhost:3001/api/phonebooks/'
+// const baseUrl = 'http://localhost:3001/api/phonebooks/'
+// const baseUrl = 'https://fullstackopen-part-3-notes.onrender.com/api/phonebooks/'
+const baseUrl = 'api/phonebooks/'
 
 const getAll = () => {
     const request = axios.get(baseUrl)
